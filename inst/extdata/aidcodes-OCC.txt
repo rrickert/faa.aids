@@ -1,0 +1,26 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	MISJUDGMENT                     	MISJG                     
+B            	MISTAKE                          	MISTK                     
+C            	CALCULATED RISK                  	CALCR                      
+D            	LACK OF SUPERVISION              	LASUP                      
+E            	INATTENTION                      	INATT                      
+F            	CARELESS                         	CARLS                     
+G            	RECKLESS                         	RCKLS                      
+H            	UNSKILLED IN AIRCRAFT            	UNSKL                      
+I            	UNSKILLED IN TYPE OF OPERATION   	UNOPS                      
+J            	UNFORSEEN SITUATION              	UNSIT                      
+K            	STOLEN AIRCRAFT                  	STOLN                      
+L            	PILOT INCAPACITATION-MEDICAL     	INMED                     
+M            	PILOT INCAPACITATION-ALCOHOL     	INACL                      
+N            	PILOT INCAPACITATION-OTHER       	INOTH                      
+O            	BIRD STRIKE                      	BIRDS                      
+P            	DENSITY ALTITUDE                 	DENAL                      
+Q            	LACK OF RECENT EXPERIENCE        	LREXP                     
+R            	WEATHER-PILOT RCVD WX BRIEFING   	WXBRF                      
+S            	OTHER                            	OTHER                      
+T            	SUPPLEMENT FORTHCOMING           	SUPFC                      
+U            	UNKNOWN                          	UNK                        
+V           	WEATHER-BRIEFING NOT REPORTED    	WXBRU                     
+W            	WEATHER-PILOT NOT WX BRIEFED     	WXNBR                      
+Y            	PILOT REPORTED DEPRESSED         	PLRPTDEP                   
+99999        	OPER CAUSE CAT INVALID           	ERROR MESSAGE 

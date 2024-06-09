@@ -1,0 +1,36 @@
+CODE         	LONG DESCRIPTION                	SHORT DESCRIPTION    
+A            	WET RUNWAY                       	WETRWY                    
+B            	ICE/SLUSH RUNWAY                 	ICESLS                     
+C            	SOFT SHOULDERS                   	SOFTSH                     
+D            	DITCHING                         	DITCH                      
+E            	EMERGENCY LANDING                	EMLAND                     
+F            	FIRE AFTER CRASH                	FIRE                       
+G            	GLASSY WATER                     	GLASSY                    
+H            	HIDDEN HAZARDOUS OBJECTS         	HAZOBS                     
+I            	ICING ON AIRCRAFT                	ICING                      
+J            	SHIFTING FUEL CARGO              	SHIFT                      
+K            	HIGH VEGETATION                  	HIGHVG                     
+L            	SABOTAGE                         	SABOTG                     
+M            	DECOMPRESSION, HYPOXIA           	DECOMP                    
+N            	PAX DISTURBANCE                  	PAXDST                    
+O            	PRECAUTIONARY LANDING            	PRECLD                     
+P            	ROUGH WATER                      	ROUGHW                    
+Q            	SNOW BANK                        	SNOBNK                     
+R            	UNDERTERMINED                    	UNDET                      
+S            	INADEQUATE RWY, TAXIWAY LGTS     	ACEVAC                     
+T            	DOWNDRAFT                        	DWNDRF                    
+U            	BLADE STALL                      	BLADST                    
+V            	OTHER/MISCELLANEOUS              	MISCL                      
+W            	STOLEN AIRCRAFT                 	STOLAC                     
+X            	BIRD STRIKE                      	BIRDS                      
+Y            	DENSITY ALTITUDE                 	DENALT                     
+Z            	WEATHER                          	WX                         
+1            	VISION OBSCURED BY SUN           	VISOBS                     
+2            	WINDSHIELD-OIL,FOG,ICE, RAIN     	FOGICE                     
+3            	PILOT FATIGUE OR LACK OF REST    	PLTFAT                     
+4            	ROUGH OR RUTTED SOD              	RUFF                       
+5            	GUSTY WINDS                      	WIND                       
+6            	STRUCK ANIMAL                    	ANMLS                      
+7            	SETTLING W/POWER                 	SETTL W/PWR               
+8            	LOSS OF TAIL ROTOR EFFECT        	LT EFFECT                  
+99999        	CONTRIBUTING CAUSE INVALID       	ERROR MESSAGE              

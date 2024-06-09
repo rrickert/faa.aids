@@ -1,0 +1,30 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	AGRICULTURE                      	AGRI                       
+B            	PLEASURE                         	PLEA                      
+C            	CIVIL CLUB                       	CCLB                       
+D            	FAA OPERATIONS                   	FAA                       
+E            	EXPERIMENTAL TEST FLIGHT         	EXPR                       
+F            	FERRY                           	FERY                       
+G            	TEST FLIGHT                      	TEST                       
+H            	HELICOPTER EXTERNAL LOAD         	HELI                      
+I            	INDUSTRIAL                       	INDU                       
+J            	FOREST FIRE                      	FIRE                      
+K            	SKY DIVING FREE FALL             	SKYD                       
+L            	PARACHUTE STATIC                 	PARA                      
+M            	MILITARY CLUB                    	MCLB                       
+N            	NONE OR OTHER                    	OTHR                       
+O            	EMERGENCY PARACHUTE              	EPAR                       
+P            	AIR SHOW                         	SHOW                       
+Q            	FAA FLIGHT CHECK                 	CHCK                       
+R            	AIR MAIL                         	MAIL                      
+S            	PASSENGERS                       	APAX                       
+T            	CARGO                            	ACAR                       
+U            	PASSENGERS AND CARGO            	PXCG                      
+V            	GLIDER                           	GLID                       
+W            	UNKNOWN                          	UNKN                      
+X            	TRAINING                         	TRNG                       
+Y            	AIR AMBULANCE                    	AMBL                       
+1            	BALLISTIC PARACHUTE              	BPAR                       
+2            	BANNER TOW                       	BTOW                       
+3            	HOT AIR BALLOON                  	BALN                       
+99999        	TYPE FLY-SEC INVALID             	ERROR MESSAGE

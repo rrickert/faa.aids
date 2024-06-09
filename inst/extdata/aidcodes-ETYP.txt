@@ -1,0 +1,14 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION
+F            	TURBOFAN/TURBOJET BYPASS         	TURBOFAN/TURBOJET          
+I            	PISTON - INLINE                  	PISTON - INLINE           
+J            	TURBOJET                         	TURBOJET                  
+O           	PISTON - OPPOSED                 	PISTON - OPPOSED          
+R          	PISTON - RADIAL                 	PISTON - RADIAL           
+T            	TURBOPROP                        	TURBOPROP                 
+U            	TURBOSHAFT                    	TURBOSHAFT                 
+V            	VEE                              	VEE
+W            	ROTARY                           	ROTARY                     
+X            	OTHER                            	OTHER                      
+Y            	ROCKET                           	ROCKET                     
+Z            	PURE JET - PULSE/RAM             	PURE JET - PULSE/RAM      
+99999        	INVALID ENGINE TYPE 

@@ -1,0 +1,28 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	NONE                             	NONE                       
+B            	FLIGHT PERSONNEL                 	FLTP                       
+C            	FLIGHT & MAINTENANCE PERSONNEL  	FLMT                       
+D            	FLT MAINT FAA ST POLICIES/PROC   	FMST                      
+E            	FLIGHT INSTRUCTOR                	FLTI                       
+F            	FLT OPER FAA STANDARDS POL/PRO   	FOSS                       
+G            	FLIGHT, MAINTENANCE & OPERATOR   	FLMO                       
+H            	FLT, FAA STANDARDS POL/ PROCS    	FLPP                       
+I            	MAINTENANCE PERSONNEL            	MAIN                       
+J            	MAINTENANCE AND OPERATOR         	MTOP                      
+K            	MT FAA ST POLICIES/PROCEDURES    	MTST                      
+L            	MAINT, OPER FAA ST POL OR PROC   	MOST                      
+M            	MANUFACTURER                     	MANU                       
+N            	MANUFACTURER AND OPERATOR        	MAOP                      
+O            	MA & FAA ST POLICIES, OR PROCS   	MAST                       
+P            	OPER FLT SCH, A/TAXI, AGR/ETC.   	OPER                      
+Q            	OP & FAA ST POLICIES, OR PROCS  	OPST                      
+R            	FAA PERSONNEL                    	FAAP                      
+S            	FAA PERSONNEL & FACILITIES       	FAPF                      
+T            	FAA PERS & FAA ST POL/PROCS      	FPST                      
+U            	FAA FACILITIES                   	FAAF                       
+V            	FAA FAC/ST POLICIES/PROCEDURES   	FFST                       
+W            	REPAIR STATION                   	RPST                       
+X            	R S & FAA ST, POLICIES OR PROC   	RSST                       
+Y            	FAA STS, POLICIES OR PROCEDURE   	FAST                       
+Z            	OTHER                            	OTHR                       
+99999        	REMED ACT AREA INVALID           	ERROR

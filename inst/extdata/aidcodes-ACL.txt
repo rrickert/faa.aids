@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+AMEL         	AIRPLANE - MULTI-ENGINE LAND     	AMEL                      
+AMES         	AIRPLANE - MULTI-ENGINE SEA      	AMES                       
+ASEL          	AIRPLANE - SINGLE ENGINE LAND    	ASEL                      
+ASES          	AIRPLANE - SINGLE ENGINE SEA     	ASES                      
+99999         	AIRCRAFT CLASS INVALID           	ERROR MESSAGE              

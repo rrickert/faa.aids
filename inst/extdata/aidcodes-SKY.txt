@@ -1,0 +1,7 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+BRKN         	BROKEN CLOUDS                    	BRKN                      
+CLER         	CLEAR                            	CLER                      
+OBSC         	SKY OBSCURED                     	OBSC                       
+OCST         	OVERCAST                         	OCST                       
+SCAT         	SCATTERED CLOUDS                 	SCAT                       
+99999        	SKY COND INVALID                 	ERROR MESSAGE

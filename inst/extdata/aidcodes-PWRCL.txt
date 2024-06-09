@@ -1,0 +1,5 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+0            	NONPOWERED                       	NONPOWERED                 
+7            	POWERED                          	POWERED                    
+8            	OPTIONAL                         	OPTIONAL                   
+99999        	INVALID POWER CLASS

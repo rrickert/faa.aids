@@ -1,0 +1,4 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+F            	FAA                              	F                          
+N            	NTSB                             	N                          
+99999        	INVEST AGENCY INVALID            	ERROR MESSAGE

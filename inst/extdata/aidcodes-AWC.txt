@@ -1,0 +1,9 @@
+CODE          	LONG DESCRIPTION            	SHORT DESCRIPTION    
+1            	STANDARD                         	STRD                      
+2            	LIMITED                          	LIMT                      
+3            	RESTRICTED                       	REST                       
+4            	EXPERIMENTAL                     	EXPT                       
+5            	PROVISIONAL                      	PROV                       
+6            	MULTIPLE                         	MULT                      
+8            	SPECIAL FLIGHT PERMIT            	FERY                       
+99999        	AIRWORTHINESS CLASS              	ERROR MESSAGE

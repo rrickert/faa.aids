@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+NC           	NONRETRACT CONVENTIONAL          	NONRTRCT CONVNTIONAL      
+NT           	NONRETRACT TRICYCLE              	NONRETRACT TRICYCLE        
+RC           	RETRACT CONVENTIONAL             	RETRACT CONVENTIONAL       
+RT           	RETRACT TRICYCLE                 	RETRACT TRICYCLE          
+99999        	INVALID LANDING GEAR TYPE                                     

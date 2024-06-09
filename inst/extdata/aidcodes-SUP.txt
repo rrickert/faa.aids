@@ -1,0 +1,28 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	CORROSION                        	CORSN                     
+B            	METAL FATIGUE                    	FATGE                      
+C            	SURFACE STRESS (RUNWAY)          	STRES                      
+D            	OVERSTRESSED                     	OVSTR                      
+E            	RUPTURED OR BURST                	BURST                     
+F            	CRACKED, SPLIT, OR BROKEN        	CRACK                     
+G            	FAULTY DESIGN                    	DESGN                      
+H            	FAULTY PART (MANUFACTURE)        	MANUF                     
+I            	IMPROPER INSTAL - NON STD PART   	INSTL                      
+J            	IMPROPERLY SECURED               	SECUR                      
+K            	JAMMED OR MALFUNCTION            	JAMML                     
+L            	BOGUS                            	BOGUS                     
+M            	FUEL CONTAMINATION               	FUELC                      
+N            	OIL CONTAMINATION                	OILCN                     
+O            	LACK OF LUBRICATION              	LUBRI                      
+P            	FOREIGN OBJECT DAMAGE            	FOROB                      
+Q            	ACCUMULATED MOSITURE/ICE         	MOICE                      
+R            	CARBURETOR ICING                 	CRICE                      
+S            	PLT INDUCED FAILURE/DEFIC FLT    	PILOT                      
+T            	OTHER                            	OTHER                      
+U            	UNDETERMINED                     	UNDET                     
+V            	SUPPLEMENTAL RPT FORTHCOMMING    	SUPPL                      
+W            	FOULED                           	FOULD                      
+X            	WORN OUT-EXCEEDED TIME LIMITS    	TIRED                      
+Y            	IMPROPER GRADE OF FUEL           	IGRFU                      
+Z            	LEAKING                          	LEAKS                      
+99999        	SUPPORT FACTOR INVALID           	ERROR MESSAGE

@@ -1,0 +1,8 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+.19          	NTSB ACCIDENT FORM 6120.19       	.19                        
+.4           	NTSB ACCIDENT FORM 6120.4       	 .4                         
+-5           	FAA INCIDENT FORM 8020-5         	-5                         
+-23          	FAA ACCIDENT/INCIDENT REPORT 8020-23	-23
+OS           	OTHER SOURCE                     	OTHER DATA SOURCE         
+TTY          	FAA ACCIDENT FORM 8020-9         	TTY                       
+99999        	LATEST DATA SRC INVALID          	ERROR MESSAGE

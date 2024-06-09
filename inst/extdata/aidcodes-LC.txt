@@ -1,0 +1,7 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+1            	DAY                              	DAY                        
+2            	NIGHT                            	NIT                        
+3            	DAWN                             	DWN                        
+4            	DUSK                             	DSK                        
+5            	UNKNOWN                          	UNK                        
+99999        	LIGHT COND INVALID               	ERROR MESSAGE 

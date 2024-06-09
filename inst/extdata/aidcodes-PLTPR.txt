@@ -1,0 +1,18 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	ACCOUNTANT                       	ACCT                       
+B            	STUDENT                          	STUD                       
+C            	SALESMAN                         	SALE                       
+D            	PHYSICIAN                        	DCTR                       
+E            	COMPANY EXECUTIVE                	EXEC                      
+F            	FARMER, RANCHER, CATTLEMAN       	FARM                       
+G            	GOVERNMENT EMPLOYEE              	GOVT                      
+H            	HOUSEWIFE                        	WIFE                       
+J            	TEACHER                          	TEAC                       
+K            	PROFESSIONAL PILOT               	PILT                       
+L            	LAWYER                           	LAWR                       
+M            	MINISTER                         	MNST                       
+N            	OTHER                            	OTHR                       
+O            	UNKNOWN                          	UNKN                       
+P            	ENGINEER                         	ENGR                       
+Q            	CONTRACTOR                       	CONT                       
+99999        	PILOT PROFESSION INVALID         	ERROR MESSAGE 

@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+D            	DESK INVESTIGATION               	D                          
+F            	FIELD INVESTIGATION              	F                          
+O            	OFFICE                           	O                          
+S            	SCENE                            	S                          
+99999        	EXT OF INVEST CODE INVALID       	ERROR MESSAGE    

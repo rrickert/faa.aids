@@ -1,0 +1,69 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+AA           	LOSS OF DIR CTL-GRND LOOP        	DIR CNTL LOOP             
+AB           	LOSS OF DIR CTL-DRAG WINGTIP     	DIR CNTL DRAG              
+AC           	LOSS OF DIRECTIONAL CONTROL      	DIR CNTL                  
+BX           	HARD LANDING                     	HARD LAND                  
+CA           	WHEELS-UP LANDING                	WHEELS UP                 
+CB           	WHEELS-DOWN LANDING IN WATER     	WHLS DWN WTR               
+CC           	GEAR COLLAPSE                    	GEAR COLL                 
+CD           	GEAR RETR DURING GRD OPERATION   	GEAR RETR GRD              
+DC           	DECOMPRESSION                    	DECOMP                     
+DR           	DYNAMIC ROLLOVER                 	DYN ROLL OVR               
+DX          	UNDERSHOOT LANDING               	UNDERSHOOT                 
+EX           	OVERSHOOT LANDING                	OVERSHOOT                  
+FX           	NOSE UP OR OVER                  	NOSE-UP-OVR                
+GR           	HELICOPTER-GRND RESONANCE        	HEL-GRND-RESNCE            
+GX           	MIDAIR COLLISIONS BOTH IN FLT    	MIDAIR                     
+HA           	A/C COLLISIONS-ONE AIRBORNE      	COLL-ONE UP                
+HB           	A/C COLLISIONS-ON GROUND         	GRND AC COLL               
+IA           	CONTROL COLL WITH GROUND         	CNTLD COLL GRD             
+IB           	UNCONTROLL COLL WITH GROUND     	 UNCNTLD COLL GRD           
+IC           	CONTROL COLL WITH WATER          	CNTLD COLL WA              
+ID           	UNCONTROL COLL WITH WATER        	UNCNTLD COLL WA            
+JA          	COLLISION WITH WIRES-POLES       	COLL-WIRES POLES           
+JB           	COLLISION WITH TREES             	COLL-TREES 
+JC           	COLLISION WITH RESIDENCES        	COLL-RESID                 
+JD           	COLLISION WITH OTHER BUILDINGS   	COLL-BLDGS                
+JE           	COLLISION WITH FENCES, & POSTS   	COLL-FENCE                 
+JF           	COLL WITH ELECTRONIC TOWERS      	COLL-TOWER                 
+JG           	COLL WITH RWY/APP LIGHTS         	COLL-RWY/APP LTS           
+JH           	COLL WITH AIRPORT HAZARD         	COLL-APT HAZ              
+JI           	COLLISION WITH BIRDS             	COLL-BIRDS                 
+JJ           	COLLISION WITH OTHER             	COLL-OTHER                 
+JK           	COLLISION WITH ANIMAL            	COLL-ANML                  
+KX           	STALL                            	STALL                      
+LX           	SPIN                             	SPIN                       
+MA           	FIRE OR EXPLOSION-IN FLIGHT      	FIRE/EXP-IN FLT            
+MB           	FIRE OR EXPLOSION-ON GROUND      	FIRE/EXP-ON GRD           
+NA           	AIRFRAME FAILURE-IN FLIGHT       	AIRFRAME-IN FLT            
+NB           	AIRFRAME FAILURE-ON GROUND       	AIRFRAME-ON GRD            
+OA           	ENGINE TEAR AWAY                 	ENGINE TEAR AWY            
+OB           	ENGINE MALFUNCTION               	ENGINE MALF                
+OC           	FORCED LANDING                   	FORCED LANDING            
+PA           	PROPELLER BLADE                  	PROP BLADE                 
+PB           	HELICOPTER BLADE                 	HELIO BLADE                
+PC           	JET BLADE                        	JET BLADE                  
+PD           	JET ROTOR BLADE                  	JET ROTOR BLADE            
+PE           	PROP BLAST                       	PROP BLAST                 
+PF           	JET BLAST                        	JET BLAST                  
+PG           	ROTOR BLAST                      	ROTOR BLAST                
+PH           	WAKE TURB-VORTEX                 	WAKE TURB                 
+PM           	PROP MALFUNCTION OR FAILURE      	PROP MALF/FAIL            
+QA           	PROP/ROTOR ACCIDENT TO PERSON    	PROP/RTR-PERS              
+QB           	JET INTAKE/EXH ACC TO PERSONS    	JET IN/EX-PERS             
+RA           	TURBULENCE IN FLIGHT PERS INJ    	TURB-PERS INJURY           
+RB           	TURB IN FLT. ACFT DAMAGE         	TURB A/C STRUCTURE         
+RC           	TURB IN FLT. ACFT & PERSON       	TURB STRUCTURE/PERS        
+RD           	HAIL DAMAGE TO AIRCRAFT          	HAIL DMG                   
+RE           	LIGHTNING STRIKE                 	LIGHTNING                  
+RF           	BLOWN OVER (WIND ONLY)           	BLOWN OVER                 
+SA           	EVASIVE MANEUVER PERS INJURY     	EVASIVE-PERS INJURY        
+SB           	EVASIVE MANEUVER STRUCTURE DMG   	EVASIVE-STRUCTURE          
+SC           	EVASIVE MANEUVER STRUC & PERS    	EVASIVE-PER/STR            
+SD           	MISSING AIRCRAFT                 	MISSING A/C                
+SE           	OTHER-MISCELLANEOUS              	OTHER                      
+SF           	UNDETERMINED                     	UNDETERMINED               
+SY           	SYSTEM MALFUNCTION OR FAILURE    	SYSTEM MALF/FAIL           
+TS           	TAIL STRIKE                      	TAIL STRIKE                
+YY           	EMERGENCY PARACHUTE              	EMER CHUTE                
+99999        	TYPE A/I INVALID                 	ERROR MESSAGE

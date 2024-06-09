@@ -1,0 +1,35 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+ZA          	UNSCHEDULED LANDING              	LAND/UNSCHED              
+ZB           	LANDED ON WRONG AIRPORT          	LAND/WRGAPT               
+ZC           	LANDED ON WRONG RUNWAY           	LAND/WRGRWY                
+ZD          	OFF SIDE OF RUNWAY               	OFF/RWY                    
+ZE           	REJECTED TAKEOFF                 	REJECT/TO                  
+ZF           	MERCY LANDING                    	LAND/MERCY                 
+ZG           	DECLARED EMERGENCY               	EMEG/DECL                  
+ZH           	DESCENT EMERGENCY                	EMEG/DESC                 
+ZI           	COLLISION AVOIDANCE MANEUVER     	AVOID/COLL                 
+ZJ           	EVACUATION                       	EVAC                       
+ZK           	FIRE AND RESCUE - ALERT          	FIRERES/ALRT               
+ZL           	FIRE AND RESCUE - ACTION         	FIRERES/ACTN               
+ZM           	NEAR MIDAIR                      	NEAR/MID                   
+ZN           	RUNWAY BLOCKED                   	BLOCK/RWY                  
+ZO           	HIJACK                           	HIJACK                     
+ZP           	NON-ROUTINE PAX OFF-LOADING      	PAX/OFFLOAD                
+ZQ           	PAX OX MASKS EXTENDED            	OX/MASKS                  
+ZR           	INFLIGHT/GROUND FIRE             	FIRE                       
+ZS           	NARCOTICS INVOLVEMENT            	NARCOTICS                  
+ZT           	SMOKE/FUMES IN COCKPIT/CABIN     	CABIN/SMOKE                
+ZU           	PUBLIC PROTECTION                	PUB/PROT                   
+ZV           	PUBLIC COMPLAINT                 	PUB/COMPLT                 
+ZW           	UNABLE/UNSAFE TO TAXI            	TAXI/UNSAFE                
+ZX           	PARACHUTE INCIDENT               	PARACHUTE                  
+ZY           	ABANDONED AIRCRAFT               	ABANDONED                  
+ZZ           	FUEL DUMP                        	FUEL DUMP                  
+Z1           	AUTOMOTIVE FUEL                  	AUTO FUEL                  
+Z2           	OVER WATER/INTO WATER            	OVER/INTOWAT               
+Z3           	BOMB THREAT                      	BOMBTHREAT                
+Z4           	DECOMPRESSION                    	DECOMPRESS                 
+Z5           	DRUGS, TEST OR AUTOPSY           	DRUGS                      
+Z6           	PREEXISTING DISEASE              	DISEASE                    
+Z7           	BALLISTIC PARACHUTE              	BALLISTIC/PC               
+99999        	INVALID OTHER FACTORS

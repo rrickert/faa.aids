@@ -1,0 +1,5 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+E            	ENFORCEMENT/INVESTIGATIVE REPT   	E                          
+S            	SERVICE DIFFICULTY REPORT        	S                          
+W            	WARNING LETTER                   	W 
+99999        	RELATED REPORT INVALID           	ERROR MESSAGE

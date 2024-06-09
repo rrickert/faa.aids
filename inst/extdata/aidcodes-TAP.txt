@@ -1,0 +1,16 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+ADF          	ADF                              	ADF                       
+ASR          	ASR                              	ASR                        
+IBK          	ILS BACK                         	IBK                        
+IFT          	ILS FRONT                        	IFT                       
+LOC          	LOC                              	LOC                        
+LOR          	LORAN                            	LOR                        
+MLS         	 MICROWAVE LANDING SYSTEM         	MLS                        
+OTH          	OTHER                            	OTH                        
+PAR          	PAR                              	PAR                        
+RVN          	AREA NAVIGATION APPROACH         	RVN                        
+SDF          	SIMPLIFIED DIRECTIONAL FAC       	SDF                       
+VIS          	VISUAL                           	VIS                        
+VOD          	VOR/DME                          	VOD                        
+VOR          	VOR                              	VOR                       
+99999        	TYPE APPROACH INVALID            	ERROR MESSAGE

@@ -1,0 +1,4 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+GD           	GOOD                             	GD                         
+PR           	POOR                             	PR                         
+99999        	BRAKE ACTION INVALID             	ERROR MESSAGE

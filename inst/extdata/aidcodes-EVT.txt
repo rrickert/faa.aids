@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	GENERAL AVIATION ACCIDENT        	A                         
+B            	AIR CARRIER ACCIDENT             	B                          
+C            	INCIDENT - AIR CARRIER           	C                         
+G            	INCIDENT - GENERAL AVIATION      	G                          
+99999        	EVENT TYPE INVALID               	ERROR MESSAGE

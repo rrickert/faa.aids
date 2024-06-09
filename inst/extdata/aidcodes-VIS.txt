@@ -1,0 +1,14 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION   
+G10          	GREATER THAN 10 MILES            	10+                       
+LS1          	LESS THAN 1 MILE                 	LS1                        
+1           	1 MILE                           	1                          
+10           	10 MILES                         	10                        
+2            	2 MILES                          	2                          
+3            	3 MILES                          	3                          
+4            	4 MILES                          	4                          
+5            	5 MILES                          	5                          
+6            	6 MILES                          	6                         
+7            	7 MILES                          	7                         
+8            	8 MILES                          	8                          
+9            	9 MILES                          	9                          
+99999        	VISIBILITY CODE INVALID          	ERRROR MESSAGE

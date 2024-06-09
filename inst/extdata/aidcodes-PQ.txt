@@ -1,0 +1,16 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION   
+E            	FLT INST QUALIFIED IN OPER       	FIQ                        
+F            	FLT INST NOT QUALIFIED IN OPER   	FINQ                       
+G            	QUAL IN OPER NOT FLIGHT INST     	QUIO                       
+H            	NQAL IN OPER-NOT A FLIGHT INST   	NQAL                       
+M            	UNKNOWN, FOREIGN PILOT           	UNFR                      
+N            	NO MEDICAL CERTIFICATE/EXPIRED   	NMED                       
+P            	NO BIENNIAL FLIGHT REVIEW        	NBIF                       
+R            	NOT PROPERLY RATED               	NRAT                       
+S            	QUALIFIED                        	QUAL                       
+T            	NOT QUALIFIED                    	NTQL                       
+U            	NO MEDICAL OR BIENNIAL           	NMNB                       
+V            	NO MEDICAL/NOT RATED             	NMNR                       
+W            	NO BIENNIAL NOT RATED            	NBNR                       
+X            	CERT SUSPENDED/REVOKED           	SUSP                       
+99999        	PILOT QUAL INVALID               	ERROR MESSAGE

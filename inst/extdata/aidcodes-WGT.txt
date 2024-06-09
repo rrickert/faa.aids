@@ -1,0 +1,4 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+1            	UNDER 12501 LBS                  	UNDER 12501 LBS           
+2            	OVER 12500 LBS                   	OVER 12500 LBS            
+99999        	INVALID WEIGHT CLASS

@@ -1,0 +1,25 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	TORNADO                          	TORN                       
+B            	HURRICANE                        	HURR                       
+C       	MOUNTAIN WAVE                    	WAVE                       
+D            	FRONTAL ACTIVITY                 	FRTA                      
+E            	LINE SQUALL                      	SQAL                      
+F            	FOG                              	FOG                        
+G            	WIND                             	WIND                      
+H           	LIGHT RAIN                      	LTRN                      
+I            	LIGHT FREEZING RAIN              	LFZR                       
+J            	HEAVY RAIN                       	HVRN                       
+K            	HEAVY FREEZING RAIN              	HFZR                       
+L            	LOW CEILING                      	CEIL                       
+M            	HEAVY SNOW                       	HSNO                       
+N            	LIGHT SNOW                       	LSNO                       
+O            	FREEZING TEMPERATURE             	FZTP                       
+P            	FRONTAL PASSAGE                  	FRTP                      
+Q            	WHIRLWIND                        	WHIR                     
+R            	FROST                            	FRST                      
+S            	WEATHER NOT A FACTOR             	NOWX                    
+T            	THUNDERSTORM                     	TDST                      
+U            	TURBULENCE                       	TURB                     
+V            	OTHER                            	OTHR                     
+W            	UNKNOWN                          	UNKN                      
+99999        	FLY COND-SEC CODE INVALID        	ERROR MESSAGE

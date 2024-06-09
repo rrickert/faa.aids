@@ -1,0 +1,4 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+N            	NO                               	NO                         
+Y            	YES                              	YES                       
+99999        	ENTER Y OR N ONLY                	ERROR MESSAGE

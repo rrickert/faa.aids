@@ -1,0 +1,7 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+D            	DEMOLISHED                       	DMOL                       
+M            	MINOR                            	MINR                       
+N            	NONE                             	NONE                       
+S            	SUBSTANTIAL                      	SUBS                       
+U            	UNKNOWN                          	UNKN                       
+99999        	DAMAGE CODE INVALID              	ERROR MESSAGE              

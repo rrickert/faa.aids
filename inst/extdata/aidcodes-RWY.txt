@@ -1,0 +1,9 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+DRY          	DRY                              	DRY                        
+ICE          	ICE                              	ICE                        
+ICP          	ICE PATCH                        	ICP                       
+SNP          	SNOW-PLOWED                      	SNP                        
+SNU          	SNOW - UNPLOWED                  	SNU                        
+WET          	WET                              	WET                        
+WTR          	STANDING WATER                   	WTR                        
+ 99999        	RUNWAY COND INVALID              	ERROR MESSAGE

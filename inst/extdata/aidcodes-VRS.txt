@@ -1,0 +1,10 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+BLS          	BLOWING SNOW                     	BLS                       
+DRZ          	DRIZZLE                          	DRZ                        
+DST          	DUST                             	DST                       
+FOG          	FOG                              	FOG                       
+HAZ          	HAZE/SMOKE                       	HAZ                        
+RAI          	RAIN                             	RAI                       
+SMK          	SMOKE                            	SMK                        
+SNO          	SNOW                             	SNO                        
+99999        	VISIBILITY REST INVALID          	ERROR MESSAGE

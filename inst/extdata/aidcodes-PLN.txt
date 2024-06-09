@@ -1,0 +1,12 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+0            	UNKNOWN                          	UNK                        
+1            	VISUAL FLIGHT RULES              	VFR                        
+2            	VISUAL-FLIGHT FOLLOWING          	VFF                       
+3            	INSTRUMENT FLIGHT RULES          	IFR                        
+4            	DEFENSE VISUAL FLIGHT RULES      	DFR                       
+5            	MILITARY CONTROL                 	GCI                       
+6            	VFR ON TOP                       	VTP                        
+7            	SPECIAL VFR                      	CVF                        
+8            	NONE                             	NON                        
+9            	AIR TAXI FLIGHT FOLLOWING        	CFP                        
+99999        	FLIGHT PLAN INVALID              	ERROR MESSAGE

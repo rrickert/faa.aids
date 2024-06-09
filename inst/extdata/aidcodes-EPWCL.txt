@@ -1,0 +1,4 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+3            	UNDER 751 HP                    	UNDER 751 HP               
+4            	OVER 750 HP                      	OVER 750 HP                
+99999        	INVALID ENGINE POWER CLASS      	ERROR MESSAGE

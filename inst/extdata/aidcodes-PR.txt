@@ -1,0 +1,62 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+00           	NO RATING (OR STUDENT ONLY)      	NO RATING                 
+01           	ASEL                             	ASEL                       
+02           	AMEL                             	AMEL                       
+03           	ASES                             	ASES                      
+04           	AMES                             	AMES                       
+05           	ASMEL                            	ASMEL                      
+06           	ASEL ASES                        	ASEL ASES                  
+07           	ASEL AMES                        	ASEL AMES                  
+08           	ASEL ASMES                       	ASEL ASMES                
+09           	ASMEL ASMES                      	ASMEL ASMES                
+10           	ASMEL ASES                      	ASMEL ASES                
+11           	ASMEL AMES                       	ASMEL AMES                 
+12           	AMEL ASES                        	AMEL ASES              
+13           	AMEL AMES                        	AMEL AMES            
+14           	AMEL ASMES                       	AMEL ASMES          
+20           	RH                               	RH                        
+21           	RH ASEL                          	RH ASEL               
+22           	RH AMEL                          	RH AMEL                
+23           	RH ASES                          	RH ASES                  
+24           	RH AMES                          	RH AMES                   
+25           	RH ASMEL                         	RH ASMEL                 
+26           	RH ASEL ASES                     	RH ASEL ASES            
+27           	RH ASEL AMES                     	RH ASEL AMES              
+28           	RH ASEL ASMES                    	RH ASEL ASMES              
+29           	RH ASMEL ASMES                   	RH ASMEL ASMES             
+30           	RH ASMEL ASES                    	RH ASMEL ASES              
+31           	RH ASMEL AMES                    	RH ASMEL AMES             
+32           	RH AMEL ASES                     	RH AMEL ASES               
+33           	RH AMEL AMES                     	RH AMEL AMES              
+34           	RH AMEL ASMES                    	RH AMEL ASMES              
+40           	GLIDER                           	GLIDER                     
+41           	G ASEL                           	G ASEL                     
+42           	G AMEL                           	G AMEL                     
+43           	G ASES                           	G ASES                     
+44           	G AMES                           	G AMES                     
+45           	G ASMEL                          	G ASMEL                    
+46           	G ASEL ASES                      	G ASEL ASES                
+47           	G ASEL AMES                      	G ASEL AMES                
+48           	G ASEL ASMES                     	G ASEL ASMES               
+49           	G ASMEL ASMES                    	G ASMEL ASMES              
+50           	G ASMEL ASES                     	G ASMEL ASES              
+51           	G ASMEL AMES                     	G ASMEL AMES               
+52           	G AMEL ASES                      	G AMEL ASES                
+53           	G AMEL AMES                      	G AMEL AMES               
+54           	G AMEL ASMES                     	G AMEL ASMES              
+60           	GLIDER RH                        	GLIDER RH                 
+61           	G RH ASEL                        	G RH ASEL                 
+62           	G RH AMEL                        	G RH AMEL                  
+63           	G RH ASES                        	G RH ASES                 
+64           	G RH AMES                        	G RH AMES                 
+65           	G RH ASMEL                       	G RH ASMEL                 
+66           	G RH ASEL ASES                   	G RH ASEL ASES             
+67           	G RH ASEL AMES                   	G RH ASEL AMES             
+68           	G RH ASEL ASMES                  	G RH ASEL ASMES            
+69           	G RH ASMEL ASMES                 	G RH ASMEL ASMES           
+70           	G RH ASMEL ASES                  	G RH ASMEL ASES            
+71           	G RH ASMEL AMES                  	G RH ASMEL AMES           
+72           	G RH AMEL ASES                   	G RH AMEL ASES             
+73           	G RH AMEL AMES                   	G RH AMEL AMES             
+74           	G RH AMEL ASMES                  	G RH AMEL ASMES            
+99999        	AIRPLANE RATE INVALID            	ERROR MESSAGE

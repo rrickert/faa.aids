@@ -1,0 +1,17 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+AC           	AERONAUTICAL CENTER              	AC                        
+AG           	OFFICE OF THE CHIEF COUNSEL      	AG                         
+AL           	ALASKAN                          	AL                        
+CE           	CENTRAL                          	CE                         
+EA           	EASTERN                          	EA                         
+EU           	EUROPEAN                         	EU                         
+FS           	GENERIC>AFS-643 RESPONSIBLE      	AFS-643                    
+GL           	GREAT LAKES                      	GL                         
+NE           	NEW ENGLAND                      	NE                         
+NM           	NORTHWEST MOUNTAIN               	NM                         
+SD           	SELF DISCLOSURE                  	SD                         
+SO           	SOUTHERN                         	SO                         
+SW          	SOUTHWEST                        	SW                         
+WA           	WASHINGTON HEADQUARTERS OFC      	WA                         
+WP           	WESTERN PACIFIC                  	WP                         
+99999        	REGION INVALID                   	ERROR MESSAGE

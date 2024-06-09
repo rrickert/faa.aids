@@ -1,0 +1,7 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+01           	ONE ENGINE                       	01                         
+02           	TWO ENGINES                      	02                         
+03           	THREE ENGINES                    	03                        
+04           	FOUR ENGINES                     	04                        
+05           	FIVE ENGINES                     	05                        
+99999        	INVALID NUMBER OF ENGINES                                    

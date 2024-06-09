@@ -1,0 +1,16 @@
+Package: faa.aids
+Title: Load FAA AIDS Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Randall", "Rickert", , "randall@rickert-digital.com",
+        role = c("aut", "cre"))
+Description: The purpose of this package is to load the *Accident/Incident Data
+    System* (AIDS) dataset maintained and published by the United States
+    Federal Aviation Administration (FAA) as a dataframe-like tibble.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    readr, dplyr, tidyr, forcats, purrr, stringr

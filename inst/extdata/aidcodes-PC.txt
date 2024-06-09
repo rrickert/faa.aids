@@ -1,0 +1,12 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+F1           	PRIVATE PILOT FLT INSTRUCTOR     	PPF                        
+F3           	COMM PILOT FLIGHT INSTRUCTOR     	CPF                        
+F9           	A/LINE TRANSPORT PLT FLT INSTR   	ATF                        
+TT           	PILOT NOT CERTIFICATED           	NON                        
+XX           	STUDENT                          	STU                        
+00           	SPECIAL PURPOSE                  	SPC                        
+01           	PRIVATE PILOT                    	PVT                        
+02           	RECREATIONAL PILOT               	REC                        
+03           	COMMERCIAL PILOT                 	COM                       
+09           	AIRLINE TRANSPORT                	ATP                        
+99           	UNKNOWN/FOREIGN                  	UNK

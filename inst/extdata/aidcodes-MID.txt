@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+1            	FIRST AIRPLANE INVOLVED          	1                         
+2            	SECOND AIRPLANE INVOLVED         	2                          
+3            	THIRD AIRPLANE INVOLVED          	3                          
+9            	NOT A MIDAIR                     	9 
+99999        	MIDAIR CODE INVALID              	ERROR MESSAGE

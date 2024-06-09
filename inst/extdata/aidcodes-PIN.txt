@@ -1,0 +1,20 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A           	PILOT-IN-COMMAND                 	PIC                        
+B            	CO-PILOT                         	1CP                        
+C            	TRAINEE                          	TRAINEE                    
+D            	FLIGHT NAVIGATOR                 	FLN                       
+E            	FLIGHT ENGINEER                  	FLE                       
+F            	RADIO OPERATOR                   	RAD                        
+G            	CHECK PILOT                      	CKP                        
+H            	MAINT SUPERVISORY PERSONNEL      	MTS                        
+I            	AIRPORT SUPERVISORY PERSONNEL    	APT                        
+J            	OPER SUPERVISORY PERSONNEL       	OPS                        
+K            	WEATHER PERSONNEL                	WX                         
+L            	CONTROLLER/ATC                   	ATC                        
+M            	MAINTENANCE AND/OR GRND CREW     	MTC                        
+N            	NON-CERTIFICATED PILOT           	NCP                        
+O            	AIRWAYS FACILITIES PERSONNEL     	AWF                        
+P            	OTHER/PASS/CABIN CREW            	OTH                        
+Q            	UNKNOWN                          	UNK                        
+R            	GROUND CREW                      	GRD                       
+99999        	PERSONS INVOLVED INVALID         	ERROR MESSAGE

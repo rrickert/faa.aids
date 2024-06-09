@@ -1,0 +1,20 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	AIR TAXI (SCHED-NOT COMMUTER)    	OTCO                      
+B            	A/T COM (SCHED 5/MORE TPS/WEEK   	ACOM                       
+C            	SCHEDULED AIR CARRIER            	SCAC                       
+D            	SUPPLEMENTAL OR COMMERCIAL OPR   	SUPP                       
+E            	TRAVEL CLUBS                     	TRVL                       
+F            	AIR TAXI OPER-LARGE AIRCRAFT     	1352                      
+G            	SCHEDULED AIR CARRIER HELICOPT   	SCRH                      
+H            	ALL CARGO CARRIERS               	CRGO                       
+J            	ILLEGAL DRUG,STOLEN ACFT,ETC     	ILGL                      
+1            	PERSONAL                         	PERS                      
+2            	BUSINESS                         	BSNS                       
+3            	EXECUTIVE                        	EXEC                       
+4            	INSTRUCTION                      	INST                      
+5            	AIR TAXI (NON-SCHEDULED)         	ATCO                      
+6            	AERIAL APPLICATOR                	AGRI                      
+7            	INDUSTRIAL/SPECIAL               	INDU                      
+8            	OTHER                            	OTHR                       
+9            	FOR HIRE                         	HIRE                      
+99999        	TYPE FLY-PRI INVALID             	ERROR MESSAGE

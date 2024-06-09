@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+1            	YES                              	Y                         
+2            	NO                               	N                          
+3            	UNKNOWN                          	U                          
+4            	ELT NOT ACTIVATE TIME OF ACCI    	P                          
+99999        	ELT CODE INVALID                 	ERROR MESSAGE

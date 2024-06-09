@@ -1,0 +1,62 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+AA           	STARTING ENGINES                 	STATIC-STARTUP             
+AB           	IDLING ENGINES                   	STATIC-IDLE ENG            
+AC           	ENGINE RUN-UP                    	STATIC-RUN UP              
+AD           	IDLING ROTORS                    	STATIC-IDLE ROTOR          
+BA           	POWER ON DESCENT (ROTORCRAFT)    	APPR-ROTOR RWR DSC        
+BB           	AUTOROT DESCENT (ROTORCRAFT)     	APPR-AUTOROT DES           
+BC           	IN TRAFFIC PATTERN-CIRCLING      	APPR-VFR PTRN CIRC         
+BD           	FINAL APPROACH                   	APPR-FINAL 
+BE           	INITIAL APPROACH-IFR             	APPR-INITIAL               
+BF           	FINAL APPROACH-IFR               	APPR-FINAL                 
+BG           	GO ROUND (ABORTED VFR)           	APPR-GO ARND VFR           
+BH           	MISSED APPROACH IFR              	APPR-MISSED IFR           
+BI           	FORCED LANDING                   	APPR-FORCE LAND            
+CX           	CLIMB TO CRUISE                  	CLIMB-TO CRUISE            
+DA           	NORMAL CRUISE                    	CRUISE-NORMAL              
+DB           	HOLDING IFR                      	CRUISE-HOLD IFR            
+DC           	ACROBATICS-BUZZING               	CRUISE-ACRO/BUZZ           
+DD           	FCD/PREC LDG FROM CRUISE         	CRUISE-FCD/PREC LD         
+DE           	LOW LEVEL OPERATIONS             	CRUISE-LO LVL OF           
+DF           	UNAUTH LOW LEVEL OPNS            	UNAUTH LOW LEVEL          
+DG           	PRACTICE TRAINING MANUEVERS      	PRACTICE MANUEVER         
+DH           	FORMATION FLYING                 	FORMATION                  
+EX           	DESCENT                          	DESCENT                    
+FA           	OPS ON GRND TO TKOF/RTRCRFT      	GRND ROTOR/GR-TO           
+FB           	OPS ON GRND FROM LDG/RTRCRFT     	GRND FRM LAND              
+FC           	AERIAL TAXI TO TKOF/RTRCRFT      	GRND ROTOR/AIR-TO          
+FD           	AERIAL TAXI FROM LDG/RTRCRFT     	GRND ROTOR/AIR-LND        
+FE           	GROUND TAXI, OTHER AIRPLANE      	GRND GRD TAXI              
+FF           	AERIAL TAXI, OTHER HELICOPTER    	GRND AER TAXI              
+FG           	OTHER GROUND OPS                 	GRND OTHER                 
+GX           	HOVERING                         	HOVERING                   
+HA           	LEVEL OFF TOUCHDOWN              	LAND-LVL OFF TOUCH         
+HB           	ROLL-OUT (FIXED WING)            	LAND-ROLL FW               
+HC           	ROLL-OUT (ROTORCRAFT)            	LAND-ROLL HELIO            
+HD           	PWR ON VERTICAL LDNG/RTRCRFT     	LAND-PWR ON VERT           
+HE           	PWR OFF VERT LAND/AUTOROTATE     	LAND-PWR OFF VERT          
+HF           	PRW ON RUN LANDING (ROTORCRAFT   	LAND-PWR ON RUN            
+HG           	PWR OFF RUN LAND (AUTOROTATION   	LAND-PWR OFF RUN           
+HH           	TOUCH AND GO LANDING             	TOUCH AND GO               
+HK           	SLOPE LANDING                    	SLOPE                      
+HM           	SETTLE WITH POWER (ROTORCRAFT)   	SETTLEWPWR                 
+IA           	TAKEOFF GROUND ROLL              	TKOF-GRND ROLL             
+IB           	TO INIT CLIMB(1ST PWR REDUCT)    	TKOF-INIT CLIMB            
+IC           	TO VERTICAL (HELICOPTER ONLY)    	TKOF-VERTICAL              
+ID           	TO RUNNING(HELICOPTER/VTOL AC)   	TKOF-RUNNING               
+IE           	TO ABORTED (FIXED WING)          	TKOF-ABORTED               
+IF           	TKOF-ABORT-COPTER VERTICAL       	TKOF-ABORT-VERT            
+IG           	TO ABORTED (COPTER/RUN TAKOFF)   	TKOF-ABORT RUNNING         
+IH           	FORCED/PRECAUTIONARY LANDING     	TKOF-FORCE LAND            
+JX           	UNKNOWN                          	UNKNOWN                    
+KA           	SIMULATED FORCED LANDING/TKOF    	SFL-TKOF RUN               
+KB           	SFL TAKEOFF CLIMB                	SFL-TKOF CLIMB             
+KC           	SFL CRUISE                       	SFL-CRUISE                
+KD           	SFL FINAL APPROACH               	SFL-FNL APP                
+KE          	SFL TRAFFIC PATTERN              	SFL-TFC PTRN               
+KF          	 SFL GO AROUND                    	SFL-GO-ARND                
+KG           	SFL AUTOROTATION                 	SFL-AUTO ROT              
+PJ           	PARACHUTE JUMPING                	PARA JUMP                  
+PL           	PINNACLE LANDING                 	PINNACLE                   
+SR           	SCUD RUNNING                     	SCUD                       
+99999        	PHASE OF FLIGHT INVALID          	ERROR MESSAGE

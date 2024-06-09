@@ -1,0 +1,5 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	IFR                              	IFR                       
+B            	VFR                              	VFR                        
+C            	UNKNOWN                          	UNK                        
+99999        	FLY COND-PRI CODE INVALID        	ERROR MESSAGE

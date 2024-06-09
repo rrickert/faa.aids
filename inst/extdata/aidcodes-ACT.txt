@@ -1,0 +1,6 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION   
+AIR          	AIRPLANE                         	AIR                        
+GLI          	GLIDER                           	GLI                        
+LTA          	LIGHTER THAN AIR                 	LTA                        
+ROT          	ROTORCRAFT                       	ROT                        
+99999        	AIRCRAFT CATEGORY INVALID        	ERROR MESSAGE              

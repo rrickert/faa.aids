@@ -1,0 +1,16 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	DISCUSSION                       	DIS                        
+B            	LETTER                           	LTR                        
+C            	ADDITIONAL TRAINING              	TRN                        
+D            	RE-EXAMINATION/RE-INSPECTION     	REX                       
+E            	VIOLATION                        	VIO                        
+F            	EMERGENCY SUSPENSION             	SUS                        
+G            	VOL SURRENDER OF CERTIFICATE    	SUR                        
+H            	RECOMMEND GEN CHANGE IN PROC     	PRO                       
+I            	RECOMMEND GEN CHANGE STAND/POL   	STP                       
+J            	OTHER                            	OTH                       
+K            	NON-COMP AIRWORTHINESS DIRECT    	ADC                        
+R            	A/DATA CODED FROM NTSA/6120.19   	NTS                        
+X            	NONE                             	NON 
+Y            	NOT REPORTED                     	NRP                        
+99999        	REMED ACT TAKEN INVALID          	ERROR MESSAGE

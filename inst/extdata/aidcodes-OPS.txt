@@ -1,0 +1,14 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	SCHEDULED PASS, DOMESTIC TRUNK   	A                         
+B            	SCHEDULED PASS, LOCAL SERVICE    	B                          
+C           	SCHEDULED PASS, ALASKA/HAWAII    	C                          
+D            	SCHED PASS, INTERNATIONAL/TERR   	D                         
+E            	SCHED PASS, HELICOPTER OPER      	E                         
+F            	SCHEDULED AIR CARGO              	F                         
+G            	SUPPLEMENTAL AIR CARRIER         	G                         
+H            	COMMUTER OPERATOR                	H                          
+I            	A/TAXI OPER-CAB EXEMPTION        	I                          
+J            	AIR TAXI                         	J                          
+K            	AIR TRAVEL CLUB                  	K                          
+L            	ALL CARGO                        	L                          
+99999        	OPERATORS SFX INVALID            	ERROR MESSAGE

@@ -1,0 +1,12 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+0            	RATINGS SHOWN BY 1ST 2 DIGITS    	NONE                       
+1            	STUDENT AIRPLANE OR HELICOPTER   	STAH                       
+2            	STUD GLIDER/LIGHTER THAN AIR     	STGL                       
+3            	INSTRUMENT                       	INST                       
+4            	LIGHTER THAN AIR                 	LTA                        
+5            	LIGHTER THAN AIR & INSTRUMENT    	LTAI                       
+6            	NOT USED                        	                           
+7            	NOT USED                        	                          
+8            	FOREIGN                          	FORN                      
+9            	UNKNOWN                          	UNKN                       
+99999        	OTHER RATE INVALID               	ERROR MESSAGE

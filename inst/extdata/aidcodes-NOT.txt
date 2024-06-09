@@ -1,0 +1,11 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+AFS          	WITHIN FLIGHT STANDARD SERVICE   	AFS                        
+ATS          	AIR TRAFFIC SERVICE              	ATS                       
+DOD         	U.S. MILITARY SERVICE            	DOD                        
+FAA          	OTHER FAA ORGANIZATIONAL UNIT    	FAA                       
+LSG          	LOCAL/STATE GOVERNMENT           	LSG                        
+NTS          	NTSB                             	NTS                        
+OPP          	OPERATOR OR PILOT INVOLVED      	OPP                        
+OTH          	OTHER OR UNKNOWN                 	OTH                        
+USG          	OTHER U.S. GOVERNMENT AGENCY     	USG                       
+99999        	NOTIFY METHOD INVALID            	ERROR MESSAGE

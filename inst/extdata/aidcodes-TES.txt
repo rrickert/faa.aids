@@ -1,0 +1,13 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION   
+I            	PISTON - IN LINE                 	I                         
+J            	TURBOJET                         	J                          
+O            	PISTON - HORIZONTAL/OPPOSED      	O                          
+R            	PISTON - RADIAL                  	R                          
+T            	TURBOPROP                        	T                          
+U            	TURBOSHAFT                       	U                          
+V            	PISTON -V ENGINE                 	V                          
+W            	ROTARY                           	W                          
+X            	OTHER                            	X                          
+Y            	ROCKET                           	Y                         
+Z            	JET                              	Z                          
+99999        	TYPE ENGINE SFX INVALID          	ERROR MESSAGE

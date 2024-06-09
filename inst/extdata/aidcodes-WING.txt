@@ -1,0 +1,11 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+B            	LIGHTER THAN AIR                 	LIGHTER THAN AIR           
+D           	DELTA WING/SWING WING            	DELTA/SWING WING           
+G            	ROTARY WING                      	ROTARY WING                
+H            	MONPLANE-HIGH/PARASOL WING       	MONPLANE-HIGH/PARASO       
+K            	KITE/SAILWING                    	KITE/SAILWING              
+L            	MONPLANE-LOW WING                	MONPLANE-LOW WING          
+M            	MONPLANE-MID WING                	MONPLANE-MID WING          
+Q            	MULTI WING                       	ULTI WING                 
+S            	STOL/VTOL/TILT/WING              	STOL/VTOL/TILT/WING       
+99999        	INVALID WING CODE

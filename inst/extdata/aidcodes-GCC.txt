@@ -1,0 +1,12 @@
+CODE             	LONG DESCRIPTION            	SHORT DESCRIPTION    
+A            	PILOT AND GROUND CREW            	PILTG                      
+1            	IMPROPER MAINTENANCE             	IMPRM                      
+2            	MANUFACTURER/BUILDER             	MANUF                      
+3            	DESIGN OF AIRCRAFT               	DESGN                     
+4            	OPDEF, OTHER THAN PILOT          	OPDEF                      
+5            	PILOT INDUCED                    	PILOT                      
+6            	UNDETERMINED                     	UNDET                      
+7            	MISCELLANEOUS, OTHER, NONE      	MISCL                      
+8            	PILOT AND MAINTENANCE            	PILTM                     
+9            	INADEQUATE MAINTENANCE           	INADM                      
+99999        	GENERAL CAUSE CAT INVALID        	ERROR MESSAGE 
