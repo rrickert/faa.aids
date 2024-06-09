@@ -83,7 +83,8 @@ directly from GitHub with:
 `devtools::install_github("rrickert/faa.aids")`
 
 ``` r
-# Call with default values to read the data included in the package
+# If a path to fresh data is not specified, load_aids() will read
+# the AIDS data packaged with this library.
 library(faa.aids)
 data <- load_aids()
 

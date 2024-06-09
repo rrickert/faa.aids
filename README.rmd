@@ -34,7 +34,8 @@ Some of the encoded columns have corresponding decoded columns, identified by de
 If you have the _devtools_ package installed, you can load this package directly from GitHub with: `devtools::install_github("rrickert/faa.aids")`
 
 ```{r load data, echo=TRUE, message=FALSE, warning=FALSE, error=TRUE}
-# Call with default values to read the data included in the package
+# If a path to fresh data is not specified, load_aids() will read
+# the AIDS data packaged with this library.
 library(faa.aids)
 data <- load_aids()
 
