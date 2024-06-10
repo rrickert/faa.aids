@@ -33,27 +33,6 @@ column of remarks and a column of unique keys corresponding to one of
 the 179 columns in the `a` files, making it easy to naturally join the
 `e` file remarks to the `a` file columns.
 
-Accident/incident event dates span roughly a century, which is most of
-the history of motorized heavier-than-air aviation, but the data are
-quite sparse until 1973, which presumably marks a dramatic change in
-aviation record-keeping practices.
-
-Observations after 2008 appear to be preliminary data, having the sort
-of empirical values that might be reported immediately following an
-event (e.g. date/time, location, fatality count, and aircraft
-registration number), but missing such information as might depend on
-the findings of an investigation (e.g. causes, remedies, and
-contributing factors).
-
-While the observations spanning 1973 through 2008 are relatively more
-complete, the completion rates for indivitual columns vary from 0.0% (no
-value is available for any observation) to 100.0% (a value is available
-for every observation), or flip from one extreme to the other at some
-point in time. This is not surprising, considering how agencies,
-regulations, and technologies can change with time. Of the 180 columns
-in the dataset, I extracted the subset that I thought most likely to be
-useful for my case study.
-
 ## Factor Codes
 
 The FAA distributes tables of codes used for factor data in a single
@@ -78,17 +57,62 @@ completely populated.
 
 ## Use
 
-If you have the *devtools* package installed, you can load this package
-directly from GitHub with:
-`devtools::install_github("rrickert/faa.aids")`
+If you have the *devtools* package installed, you can install this
+package directly from GitHub with:
+`devtools::install_github("rrickert/faa.aids")`. The library exposes a
+single function, `faa.aids::load_aids()`, which will by default load the
+AIDS data packaged with this library. Optional arguments can be used to
+specify an alternate path to FAA AIDS data files and regular expression
+patterns to match the file names.
 
 ``` r
-# If a path to fresh data is not specified, load_aids() will read
-# the AIDS data packaged with this library.
+# Load the AIDS data packaged with this library
 library(faa.aids)
 data <- load_aids()
+```
 
-# Get a summary of the tibble
+## Explore
+
+Event dates span roughly the eighty years since the Second World War,
+but the data are very sparse until 1973, which presumably marks a
+dramatic change in aviation record-keeping practices in the U.S. Another
+change appears to be the inclusion of incidents other than accidents
+beginning around 1978.
+
+``` r
+library(tidyverse)
+library(httpgd)
+data |>
+  ggplot(
+    mapping = aes(
+      x = `event date`,
+      fill = `event type`
+    )
+  ) + geom_histogram(binwidth = 28)
+```
+
+![](README_files/figure-gfm/plot-1.png)<!-- -->
+
+Observations after 2008 appear to be preliminary data, having the sort
+of empirical values that might be reported immediately following an
+event (e.g. date/time, location, fatality count, and aircraft
+registration number), but missing such information as might depend on
+the findings of an investigation (e.g. causes, remedies, and
+contributing factors).
+
+While the observations spanning 1973 through 2008 are relatively more
+complete, the completion rates for indivitual columns vary from 0.0% (no
+value is available for any observation) to 100.0% (a value is available
+for every observation), or flip from one extreme to the other at some
+point in time. This is not surprising, considering how agencies,
+regulations, and technologies can change with time. Of the 180 columns
+in the dataset, I extracted the subset that I thought most likely to be
+useful for my case study.
+
+The *skimr* package provides a convenient summary.
+
+``` r
+# Summarize the tibble
 library(skimr)
 skim(data)
 ```
