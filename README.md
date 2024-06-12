@@ -28,7 +28,7 @@ library(faa.aids)
 data <- load_aids()
 ```
 
-### Event Type and Date
+### Example: Event Type and Date
 
 Event dates span roughly the eighty years since the Second World War,
 but the data are very sparse until 1973, which probably marks a dramatic
@@ -51,7 +51,7 @@ data |>
 
 ![](README_files/figure-gfm/event%20histogram-1.png)<!-- -->
 
-### Flying Type and Fatalities
+### Example: Flying Type and Fatalities
 
 From the twenty year span with the most complete data (1988 - 2008), we
 can see that some types of aviation, such as crop dusting, kill people
