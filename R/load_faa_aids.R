@@ -34,7 +34,7 @@ load_farparts <- function(farparts_file) {
 #'
 #' @param code_dir Directory containing AID code table files
 #' @param code_file_pattern Regex pattern for AID code table filenames
-#' @return A named vector of vectors, each usable as ... of forcats::fct_recode()
+#' @return A named vector of vectors for forcats::fct_recode()
 load_aidcodes <- function(code_dir, code_file_pattern) {
   code_files <- list.files( # Enlist AID code table files
     code_dir,
@@ -285,5 +285,5 @@ load_aids <- function(
         stringr::str_detect(., "(?i)^unknown|^undetermined"), NA, .
       )
     ) |>
-    dplyr::left_join(e) # Join with remarks from E files
+    dplyr::left_join(e, by = dplyr::join_by(id)) # Join with remarks
 }

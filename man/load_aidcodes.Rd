@@ -12,7 +12,7 @@ load_aidcodes(code_dir, code_file_pattern)
 \item{code_file_pattern}{Regex pattern for AID code table filenames}
 }
 \value{
-A named vector of vectors, each usable as ... of forcats::fct_recode()
+A named vector of vectors for forcats::fct_recode()
 }
 \description{
 This function reads all TSV format text files in a specified directory that

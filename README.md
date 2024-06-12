@@ -71,48 +71,70 @@ library(faa.aids)
 data <- load_aids()
 ```
 
-## Explore
+## Exploration
+
+### Event Type and Date
 
 Event dates span roughly the eighty years since the Second World War,
-but the data are very sparse until 1973, which presumably marks a
-dramatic change in aviation record-keeping practices in the U.S. Another
-change appears to be the inclusion of incidents other than accidents
-beginning around 1978.
+but the data are very sparse until 1973, which probably marks a dramatic
+change in aviation record-keeping practices in the U.S. Another change
+appears to be the inclusion of incidents other than accidents beginning
+around 1978. Data from 2008 to present include only very preliminary
+data. Yearly spikes suggest that the events follow strong seasonal
+cycles, with a notable surge in 2020.
 
 ``` r
 library(tidyverse)
-library(httpgd)
 data |>
+  filter(
+    `event date` >= as.Date("1968-01-01")
+  ) |>
   ggplot(
-    mapping = aes(
-      x = `event date`,
-      fill = `event type`
-    )
-  ) + geom_histogram(binwidth = 28)
+    mapping = aes(x = `event date`, fill = `event type`)
+  ) + geom_histogram(binwidth = 7)
 ```
 
-![](README_files/figure-gfm/plot-1.png)<!-- -->
+![](README_files/figure-gfm/event%20histogram-1.png)<!-- -->
 
-Observations after 2008 appear to be preliminary data, having the sort
-of empirical values that might be reported immediately following an
-event (e.g. date/time, location, fatality count, and aircraft
-registration number), but missing such information as might depend on
-the findings of an investigation (e.g. causes, remedies, and
-contributing factors).
+### Flying Type and Fatalities
+
+From the twenty year span with the most complete data (1988 - 2008), we
+can see that some types of aviation, such as crop dusting, kill people
+with more seasonality than do commercial passenger or cargo flights.
+Drug smuggling and aircraft thievery data are too sparse to draw a
+conclusion.
+
+``` r
+data |>
+  filter(
+    between(`event date`, as.Date("1988-01-01"), as.Date("2007-12-31"))
+  ) |>
+  mutate(
+    `flying type` = fct_lump_min(`flying type`, 5) # Declutter dirty data
+  ) |>
+  ggplot(
+    mapping = aes(
+      x = `event date`, y = `flying type`,
+      alpha = `total deaths`, color = `flying type`
+    )
+  ) + guides(color = "none") + geom_jitter()
+```
+
+![](README_files/figure-gfm/flying%20type%20scatterplot-1.png)<!-- -->
+
+### Summary Statistics
 
 While the observations spanning 1973 through 2008 are relatively more
 complete, the completion rates for indivitual columns vary from 0.0% (no
 value is available for any observation) to 100.0% (a value is available
-for every observation), or flip from one extreme to the other at some
-point in time. This is not surprising, considering how agencies,
-regulations, and technologies can change with time. Of the 180 columns
-in the dataset, I extracted the subset that I thought most likely to be
-useful for my case study.
+for every observation). From the 180 columns in the raw dataset, this
+package returns forty columns that appear interesting and complete
+enough to be useful for my own case study.
 
 The *skimr* package provides a convenient summary.
 
 ``` r
-# Summarize the tibble
+# Summarize the resulting tibble
 library(skimr)
 skim(data)
 ```
