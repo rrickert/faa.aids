@@ -19,8 +19,6 @@ library(faa.aids)
 data <- load_aids()
 ```
 
-## Exploration
-
 ### Event Type and Date
 
 Event dates span roughly the eighty years since the Second World War, but the data are very sparse until 1973, which probably marks a dramatic change in aviation record-keeping practices in the U.S. Another change appears to be the inclusion of incidents other than accidents beginning around 1978. Data from 2008 to present include only very preliminary data. Yearly spikes suggest that the events follow strong seasonal cycles, with a notable surge in 2020.
@@ -68,13 +66,15 @@ library(skimr)
 skim(data)
 ```
 
-## Data Source
+## Raw Data
+
+### Source
 
 [The raw AIDS data](https://www.asias.faa.gov/apex/f?p=100:189:::NO), updated at the end of each calendar month, is hosted on the FAA's [*Aviation Safety Information Analysis and Sharing (ASIAS)* web site](https://www.asias.faa.gov/). This code was developed using the March 30, 2024 update, which was the latest available at the time of this writing.
 
 The FAA distributes the data in a series of tab-delimited text files. Data file base names begin with `a` or `e`, followed by the year span represented in the file, in the format: `YYYY_YY`. For example, `a2020_25.txt` contains aviation accident/incident observations from the year 2020 through the year 2025 inclusively. The files beginning with `a` contain 179 serially-named columns. Brief descriptions of the columns are stored in a separate fixed-width text file: `Afilelayout.txt`. The files beginning with `e` contain two columns: a column of remarks and a column of unique keys corresponding to one of the 179 columns in the `a` files, making it easy to naturally join the `e` file remarks to the `a` file columns.
 
-## Factor Codes
+### Factor Codes
 
 The FAA distributes tables of codes used for factor data in a single word processor document: `aidcodes.docx`. This document's Lack of structure makes it difficult to extract the individual tables programmatically, so I extracted each table manually to its own tab-delimited text file.
 

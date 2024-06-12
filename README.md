@@ -28,8 +28,6 @@ library(faa.aids)
 data <- load_aids()
 ```
 
-## Exploration
-
 ### Event Type and Date
 
 Event dates span roughly the eighty years since the Second World War,
@@ -178,7 +176,9 @@ Data summary
 | engine count   |     31176 |          0.86 | 1.28 | 0.58 |   0 |   1 |   1 |   2 |    4 | ▁▇▂▁▁ |
 | total injuries |         0 |          1.00 | 0.21 | 1.24 |   0 |   0 |   0 |   0 |  200 | ▇▁▁▁▁ |
 
-## Data Source
+## Raw Data
+
+### Source
 
 [The raw AIDS data](https://www.asias.faa.gov/apex/f?p=100:189:::NO),
 updated at the end of each calendar month, is hosted on the FAA’s
@@ -199,7 +199,7 @@ column of remarks and a column of unique keys corresponding to one of
 the 179 columns in the `a` files, making it easy to naturally join the
 `e` file remarks to the `a` file columns.
 
-## Factor Codes
+### Factor Codes
 
 The FAA distributes tables of codes used for factor data in a single
 word processor document: `aidcodes.docx`. This document’s Lack of
