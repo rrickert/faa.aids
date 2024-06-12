@@ -12,49 +12,6 @@ result is a dplyr::tibble, a dataframe-like object type I chose because
 I am using the *tidyverse* metapackage for a case study of general
 aviation accident/incident trends.
 
-## Data Source
-
-[The raw AIDS data](https://www.asias.faa.gov/apex/f?p=100:189:::NO),
-updated at the end of each calendar month, is hosted on the FAA’s
-[*Aviation Safety Information Analysis and Sharing (ASIAS)* web
-site](https://www.asias.faa.gov/). This code was developed using the
-March 30, 2024 update, which was the latest available at the time of
-this writing.
-
-The FAA distributes the data in a series of tab-delimited text files.
-Data file base names begin with `a` or `e`, followed by the year span
-represented in the file, in the format: `YYYY_YY`. For example,
-`a2020_25.txt` contains aviation accident/incident observations from the
-year 2020 through the year 2025 inclusively. The files beginning with
-`a` contain 179 serially-named columns. Brief descriptions of the
-columns are stored in a separate fixed-width text file:
-`Afilelayout.txt`. The files beginning with `e` contain two columns: a
-column of remarks and a column of unique keys corresponding to one of
-the 179 columns in the `a` files, making it easy to naturally join the
-`e` file remarks to the `a` file columns.
-
-## Factor Codes
-
-The FAA distributes tables of codes used for factor data in a single
-word processor document: `aidcodes.docx`. This document’s Lack of
-structure makes it difficult to extract the individual tables
-programmatically, so I extracted each table manually to its own
-tab-delimited text file.
-
-I inferred the mapping of those code tables to the serially-named data
-columns containing encoded values by comparing the data column
-descriptions in `Afilelayout.txt` with the table descriptions in
-`aidcodes.docx`, but not all data columns appear in `Afilelayout.txt`
-with useful descriptions.
-
-Some of the encoded columns have corresponding decoded columns,
-identified by descriptions in `Afilelayout.txt` ending with the word
-*text*, allowing me to verify my code-table-to-column mappings by
-checking the values I decoded against values from the corresponding
-decoded *text* columns. However, not all encoded columns have
-corresponding *text* columns, nor are the existing *text* columns
-completely populated.
-
 ## Use
 
 If you have the *devtools* package installed, you can install this
@@ -220,3 +177,46 @@ Data summary
 | total deaths   |         0 |          1.00 | 0.15 | 1.58 |   0 |   0 |   0 |   0 |  260 | ▇▁▁▁▁ |
 | engine count   |     31176 |          0.86 | 1.28 | 0.58 |   0 |   1 |   1 |   2 |    4 | ▁▇▂▁▁ |
 | total injuries |         0 |          1.00 | 0.21 | 1.24 |   0 |   0 |   0 |   0 |  200 | ▇▁▁▁▁ |
+
+## Data Source
+
+[The raw AIDS data](https://www.asias.faa.gov/apex/f?p=100:189:::NO),
+updated at the end of each calendar month, is hosted on the FAA’s
+[*Aviation Safety Information Analysis and Sharing (ASIAS)* web
+site](https://www.asias.faa.gov/). This code was developed using the
+March 30, 2024 update, which was the latest available at the time of
+this writing.
+
+The FAA distributes the data in a series of tab-delimited text files.
+Data file base names begin with `a` or `e`, followed by the year span
+represented in the file, in the format: `YYYY_YY`. For example,
+`a2020_25.txt` contains aviation accident/incident observations from the
+year 2020 through the year 2025 inclusively. The files beginning with
+`a` contain 179 serially-named columns. Brief descriptions of the
+columns are stored in a separate fixed-width text file:
+`Afilelayout.txt`. The files beginning with `e` contain two columns: a
+column of remarks and a column of unique keys corresponding to one of
+the 179 columns in the `a` files, making it easy to naturally join the
+`e` file remarks to the `a` file columns.
+
+## Factor Codes
+
+The FAA distributes tables of codes used for factor data in a single
+word processor document: `aidcodes.docx`. This document’s Lack of
+structure makes it difficult to extract the individual tables
+programmatically, so I extracted each table manually to its own
+tab-delimited text file.
+
+I inferred the mapping of those code tables to the serially-named data
+columns containing encoded values by comparing the data column
+descriptions in `Afilelayout.txt` with the table descriptions in
+`aidcodes.docx`, but not all data columns appear in `Afilelayout.txt`
+with useful descriptions.
+
+Some of the encoded columns have corresponding decoded columns,
+identified by descriptions in `Afilelayout.txt` ending with the word
+*text*, allowing me to verify my code-table-to-column mappings by
+checking the values I decoded against values from the corresponding
+decoded *text* columns. However, not all encoded columns have
+corresponding *text* columns, nor are the existing *text* columns
+completely populated.
