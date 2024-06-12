@@ -28,35 +28,12 @@ library(faa.aids)
 data <- load_aids()
 ```
 
-### Example: Event Type and Date
+### Example: Seasonality of Aviation Deaths While Crop Dusting vs. Drug Smuggling or Aircraft Thievery
 
-Event dates span roughly the eighty years since the Second World War,
-but the data are very sparse until 1973, which probably marks a dramatic
-change in aviation record-keeping practices in the U.S. Another change
-appears to be the inclusion of incidents other than accidents beginning
-around 1978. Yearly spikes suggest that the events follow strong
-seasonal cycles, with a notable surge in 2020.
-
-``` r
-library(tidyverse)
-data |>
-  filter(
-    `event date` >= as.Date("1968-01-01")
-  ) |>
-  ggplot(
-    mapping = aes(x = `event date`, fill = `event type`)
-  ) + geom_histogram(binwidth = 7)
-```
-
-![](README_files/figure-gfm/event%20histogram-1.png)<!-- -->
-
-### Example: Flying Type and Fatalities
-
-Data from 2008 to present include only very preliminary data. From the
-twenty year span with the most complete data (1988 - 2007), we can see
-that some types of aviation, such as crop dusting, kill people with more
-seasonality than do commercial passenger or cargo flights. Drug
-smuggling and aircraft thievery data are too sparse to draw a
+From the twenty year span with the most complete data (1988 - 2007), we
+can see that some types of aviation, such as crop dusting, kill people
+with more seasonality than do commercial passenger or cargo flights.
+Drug smuggling and aircraft thievery data are too sparse to draw a
 conclusion.
 
 ``` r
@@ -76,6 +53,30 @@ data |>
 ```
 
 ![](README_files/figure-gfm/flying%20type%20scatterplot-1.png)<!-- -->
+
+### Example: Event Type and Date
+
+Event dates span roughly the eighty years since the Second World War,
+but the data are very sparse until 1973, which probably marks a dramatic
+change in aviation record-keeping practices in the U.S., and around 1978
+we see the appearance of incidents other than accidents. Data from 2008
+to present become very sparse again, including only very preliminary
+values. Yearly spikes suggest that the events follow strong seasonal
+cycles, possibly (but probably not) driven by springtime crop dusting
+binges.
+
+``` r
+library(tidyverse)
+data |>
+  filter(
+    `event date` >= as.Date("1968-01-01")
+  ) |>
+  ggplot(
+    mapping = aes(x = `event date`, fill = `event type`)
+  ) + geom_histogram(binwidth = 7)
+```
+
+![](README_files/figure-gfm/event%20histogram-1.png)<!-- -->
 
 ### Summary Statistics
 
