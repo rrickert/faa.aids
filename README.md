@@ -34,9 +34,8 @@ Event dates span roughly the eighty years since the Second World War,
 but the data are very sparse until 1973, which probably marks a dramatic
 change in aviation record-keeping practices in the U.S. Another change
 appears to be the inclusion of incidents other than accidents beginning
-around 1978. Data from 2008 to present include only very preliminary
-data. Yearly spikes suggest that the events follow strong seasonal
-cycles, with a notable surge in 2020.
+around 1978. Yearly spikes suggest that the events follow strong
+seasonal cycles, with a notable surge in 2020.
 
 ``` r
 library(tidyverse)
@@ -53,10 +52,11 @@ data |>
 
 ### Example: Flying Type and Fatalities
 
-From the twenty year span with the most complete data (1988 - 2008), we
-can see that some types of aviation, such as crop dusting, kill people
-with more seasonality than do commercial passenger or cargo flights.
-Drug smuggling and aircraft thievery data are too sparse to draw a
+Data from 2008 to present include only very preliminary data. From the
+twenty year span with the most complete data (1988 - 2007), we can see
+that some types of aviation, such as crop dusting, kill people with more
+seasonality than do commercial passenger or cargo flights. Drug
+smuggling and aircraft thievery data are too sparse to draw a
 conclusion.
 
 ``` r
