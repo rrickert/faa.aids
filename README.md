@@ -62,8 +62,8 @@ change in aviation record-keeping practices in the U.S., and around 1978
 we see the appearance of incidents other than accidents. Data from 2008
 to present become very sparse again, including only very preliminary
 values. Yearly spikes suggest that the events follow strong seasonal
-cycles, possibly (but probably not) driven by springtime crop dusting
-binges.
+cycles, possibly (but probably not) driven by frenzies of springtime crop
+dusting.
 
 ``` r
 library(tidyverse)
